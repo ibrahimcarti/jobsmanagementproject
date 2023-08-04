@@ -40,8 +40,8 @@ public class SetMeetingForm extends javax.swing.JFrame {
     }
 
     public void SendMail(String subject, String content, String to) throws java.lang.IllegalStateException{
-        final String senderEmail = "cartiibrahim@gmail.com"; // Gönderici e-posta adresi
-        final String senderPassword = "qunytlfxqkizfsnb"; // Gönderici e-posta şifresi
+        final String senderEmail = "yourmail@gmail.com"; // Gönderici e-posta adresi
+        final String senderPassword = "yourpassword"; // Gönderici e-posta şifresi
         final String recipientEmail = to; // Alıcı e-posta adresi
 
         // E-posta sunucusu yapılandırması
